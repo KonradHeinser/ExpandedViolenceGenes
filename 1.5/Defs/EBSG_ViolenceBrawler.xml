@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="true" Name="EBSG_Brawler">
+        <displayCategory>Violence</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Brawler</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_HyperRecklessBrawler</defName>
+        <label>hyper reckless brawler</label>
+        <description>Carriers of this gene are unbelievably reckless in melee combat.</description>
+        <iconPath>EBSG/Gene_ExtremelyRecklessBrawler</iconPath>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+            <MeleeHitChance>1.6</MeleeHitChance>
+            <MeleeDodgeChance>0.4</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+                <li><symbol>barb</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_SuperRecklessBrawler</defName>
+        <label>super reckless brawler</label>
+        <description>Carriers of this gene are super reckless in melee combat.</description>
+        <iconPath>EBSG/Gene_ExtremelyRecklessBrawler</iconPath>
+        <displayOrderInCategory>100.1</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+            <MeleeHitChance>1.5</MeleeHitChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+                <li><symbol>barb</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_ExtremeRecklessBrawler</defName>
+        <label>extremely reckless brawler</label>
+        <description>Carriers of this gene are extremely reckless in melee combat.</description>
+        <iconPath>EBSG/Gene_ExtremelyRecklessBrawler</iconPath>
+        <displayOrderInCategory>100.2</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <MeleeHitChance>1.4</MeleeHitChance>
+            <MeleeDodgeChance>0.6</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+                <li><symbol>barb</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_VeryRecklessBrawler</defName>
+        <label>very reckless brawler</label>
+        <description>Carriers of this gene are very reckless in melee combat.</description>
+        <iconPath>EBSG/Gene_RecklessBrawler</iconPath>
+        <displayOrderInCategory>100.3</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+            <MeleeHitChance>1.3</MeleeHitChance>
+            <MeleeDodgeChance>0.7</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+                <li><symbol>barb</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_RecklessBrawler</defName>
+        <label>reckless brawler</label>
+        <description>Carriers of this gene are reckless in melee combat.</description>
+        <iconPath>EBSG/Gene_RecklessBrawler</iconPath>
+        <displayOrderInCategory>100.4</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MeleeHitChance>1.2</MeleeHitChance>
+            <MeleeDodgeChance>0.8</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+                <li><symbol>barb</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_SomewhatRecklessBrawler</defName>
+        <label>somewhat reckless brawler</label>
+        <description>Carriers of this gene are somewhat reckless in melee combat.</description>
+        <iconPath>EBSG/Gene_RecklessBrawler</iconPath>
+        <displayOrderInCategory>100.5</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <MeleeHitChance>1.1</MeleeHitChance>
+            <MeleeDodgeChance>0.9</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+                <li><symbol>barb</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_SomewhatCautiousBrawler</defName>
+        <label>somewhat cautious brawler</label>
+        <description>Carriers of this gene are a little over-cautious in melee combat.</description>
+        <iconPath>EBSG/Gene_CautiousBrawler</iconPath>
+        <displayOrderInCategory>100.6</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <MeleeHitChance>0.9</MeleeHitChance>
+            <MeleeDodgeChance>1.1</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_CautiousBrawler</defName>
+        <label>cautious brawler</label>
+        <description>Carriers of this gene are over-cautious in melee combat.</description>
+        <iconPath>EBSG/Gene_CautiousBrawler</iconPath>
+        <displayOrderInCategory>100.7</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MeleeHitChance>0.8</MeleeHitChance>
+            <MeleeDodgeChance>1.2</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_VeryCautiousBrawler</defName>
+        <label>very cautious brawler</label>
+        <description>Carriers of this gene are very over-cautious in melee combat.</description>
+        <iconPath>EBSG/Gene_CautiousBrawler</iconPath>
+        <displayOrderInCategory>100.8</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+            <MeleeHitChance>0.7</MeleeHitChance>
+            <MeleeDodgeChance>1.3</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_ExtremelyCautiousBrawler</defName>
+        <label>extremely cautious brawler</label>
+        <description>Carriers of this gene are extremely over-cautious in melee combat.</description>
+        <iconPath>EBSG/Gene_ExtremelyCautiousBrawler</iconPath>
+        <displayOrderInCategory>100.9</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <MeleeHitChance>0.6</MeleeHitChance>
+            <MeleeDodgeChance>1.4</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_SuperCautiousBrawler</defName>
+        <label>super cautious brawler</label>
+        <description>Carriers of this gene are super over-cautious in melee combat.</description>
+        <iconPath>EBSG/Gene_ExtremelyCautiousBrawler</iconPath>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+            <MeleeHitChance>0.5</MeleeHitChance>
+            <MeleeDodgeChance>1.5</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Brawler">
+        <defName>EBSG_HyperCautiousBrawler</defName>
+        <label>hyper cautious brawler</label>
+        <description>Carriers of this gene are unbelievably over-cautious in melee combat.</description>
+        <iconPath>EBSG/Gene_ExtremelyCautiousBrawler</iconPath>
+        <displayOrderInCategory>101.1</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+            <MeleeHitChance>0.4</MeleeHitChance>
+            <MeleeDodgeChance>1.6</MeleeDodgeChance>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
