@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Abstract="true" Name="EBSG_Shooter">
+        <displayCategory>Violence</displayCategory>
+        <exclusionTags>
+            <li>EBSG_Shooter</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_HyperTwitchyShooter</defName>
+        <label>hyper twitchy shooter</label>
+        <description>Carriers of this gene are unbelievably careless with their shots.</description>
+        <iconPath>EBSG/Gene_ExtremelyTwitchyShooter</iconPath>
+        <displayOrderInCategory>101.9</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.4</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_SuperTwitchyShooter</defName>
+        <label>super twitchy shooter</label>
+        <description>Carriers of this gene are super careless with their shots.</description>
+        <iconPath>EBSG/Gene_ExtremelyTwitchyShooter</iconPath>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.5</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_ExtremeTwitchyShooter</defName>
+        <label>extremely twitchy shooter</label>
+        <description>Carriers of this gene are extremely careless with their shots.</description>
+        <iconPath>EBSG/Gene_ExtremelyTwitchyShooter</iconPath>
+        <displayOrderInCategory>102.1</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>0.6</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.6</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_VeryTwitchyShooter</defName>
+        <label>very twitchy shooter</label>
+        <description>Carriers of this gene are very careless with their shots.</description>
+        <iconPath>EBSG/Gene_TwitchyShooter</iconPath>
+        <displayOrderInCategory>102.2</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>0.7</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.7</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_TwitchyShooter</defName>
+        <label>twitchy shooter</label>
+        <description>Carriers of this gene are careless with their shots.</description>
+        <iconPath>EBSG/Gene_TwitchyShooter</iconPath>
+        <displayOrderInCategory>102.3</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.8</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_SomewhatTwitchyShooter</defName>
+        <label>somewhat twitchy shooter</label>
+        <description>Carriers of this gene are somewhat careless with their shots.</description>
+        <iconPath>EBSG/Gene_TwitchyShooter</iconPath>
+        <displayOrderInCategory>102.4</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>0.9</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.9</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>aggro</symbol></li>
+                <li><symbol>hate</symbol></li>
+                <li><symbol>fight</symbol></li>
+                <li><symbol>destro</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_SomewhatCarefulShooter</defName>
+        <label>somewhat careful shooter</label>
+        <description>Carriers of this gene are a little over-meticulous with their shots.</description>
+        <iconPath>EBSG/Gene_CarefulShooter</iconPath>
+        <displayOrderInCategory>102.5</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.1</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_CarefulShooter</defName>
+        <label>careful shooter</label>
+        <description>Carriers of this gene are over-meticulous with their shots.</description>
+        <iconPath>EBSG/Gene_CarefulShooter</iconPath>
+        <displayOrderInCategory>102.6</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.2</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_VeryCarefulShooter</defName>
+        <label>very careful shooter</label>
+        <description>Carriers of this gene are very over-meticulous with their shots.</description>
+        <iconPath>EBSG/Gene_CarefulShooter</iconPath>
+        <displayOrderInCategory>102.7</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>1.3</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.3</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_ExtremelyCarefulShooter</defName>
+        <label>extremely careful shooter</label>
+        <description>Carriers of this gene are extremely over-meticulous with their shots.</description>
+        <iconPath>EBSG/Gene_ExtremelyCarefulShooter</iconPath>
+        <displayOrderInCategory>102.8</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>1.4</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.4</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_SuperCarefulShooter</defName>
+        <label>super careful shooter</label>
+        <description>Carriers of this gene are super over-meticulous with their shots.</description>
+        <iconPath>EBSG/Gene_ExtremelyCarefulShooter</iconPath>
+        <displayOrderInCategory>102.9</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.5</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_Shooter">
+        <defName>EBSG_HyperCarefulShooter</defName>
+        <label>hyper careful shooter</label>
+        <description>Carriers of this gene are unbelievably over-meticulous with their shots.</description>
+        <iconPath>EBSG/Gene_ExtremelyCarefulShooter</iconPath>
+        <displayOrderInCategory>103</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <statFactors>
+            <ShootingAccuracyPawn>1.6</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.6</AimingDelayFactor>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>caut</symbol></li>
+                <li><symbol>calm</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>fighter</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
